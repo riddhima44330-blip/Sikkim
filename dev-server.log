@@ -1,0 +1,46 @@
+
+> sikkim@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.16.10.237:3000
+✓ Ready in 947ms
+✓ Running next.config.ts took 59ms
+
+ GET / 200 in 1829ms (next.js: 557ms, application-code: 1272ms)
+ GET / 200 in 1812ms (next.js: 581ms, application-code: 1231ms)
+ GET / 200 in 269ms (next.js: 14ms, application-code: 255ms)
+[browser] Image with src "https://commons.wikimedia.org/wiki/Special:FilePath/Pemayangtse%20Monastery%20Sikkim%20India.jpg?width=1400" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET / 200 in 834ms (next.js: 8ms, application-code: 826ms)
+ GET / 200 in 330ms (next.js: 9ms, application-code: 321ms)
+ GET / 200 in 281ms (next.js: 9ms, application-code: 272ms)
+ GET / 200 in 383ms (next.js: 14ms, application-code: 369ms)
+⨯ upstream image response failed for https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Kartok_Monastery.jpg&width=1400 404
+⨯ upstream image response failed for https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Kanchenjunga_from_Zuluk%2C_Sikkim_%28cropped%29.jpg/1920px-Kanchenjunga_from_Zuluk%2C_Sikkim_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail 429
+⨯ upstream image response failed for https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Buddhist_monks_dancing_the_Cham_in_the_Himalayan_monastery_of_Lamayuru.jpg/1920px-Buddhist_monks_dancing_the_Cham_in_the_Himalayan_monastery_of_Lamayuru.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail 429
+✓ Compiled in 143ms
+ GET / 200 in 121ms (next.js: 23ms, application-code: 98ms)
+ GET / 200 in 60ms (next.js: 13ms, application-code: 46ms)
+[browser] Uncaught ReferenceError: Photo is not defined
+    at Chamber (components/Chamber.tsx:30:10)
+    at Experience (components/Experience.tsx:32:7)
+    at Home (app\page.tsx:4:10)
+  28 |       {/* arches through which the mountains are visible */}
+  29 |       <div className="absolute left-[6%] top-[16%] hidden h-[70vh] w-[26vw] overflow-hidden md:block" style={{ borderRadius: "999px 999px 0 0" }}>
+> 30 |         <Photo scene="pemayangtse" seed={11} alt="Pemayangtse Monastery in mist" sizes="26vw" />
+     |          ^
+  31 |       </div>
+  32 |       <div className="absolute right-[6%] top-[18%] hidden h-[60vh] w-[22vw] overflow-hidden md:block" style={{ borderRadius: "999px 999px 0 0" }}>
+  33 |         <Photo scene="phodong" seed={23} alt="Phodong Monastery" sizes="22vw" />
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+✓ Compiled in 97ms
+ GET / 200 in 881ms (next.js: 21ms, application-code: 861ms)
+ GET / 200 in 444ms (next.js: 12ms, application-code: 432ms)
+ GET / 200 in 967ms (next.js: 6ms, application-code: 960ms)
+ GET / 200 in 389ms (next.js: 11ms, application-code: 378ms)
+ GET / 200 in 343ms (next.js: 14ms, application-code: 330ms)
+⨯ upstream image response failed for https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Kartok_Monastery.jpg&width=1400 404
+[?25h
